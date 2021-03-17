@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  position: fixed;
+}
+
+.menu-logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
+}
+
+.menu-logo .hamburger {
+  margin-right: 43px;
+}
+
+.menu-logo img {
+  width: 150px;
+}
+
+/*Search Bar and Mic*/
+.search-mic {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.search-mic .search-bar input[type="search"] {
+  padding: 0.42rem;
+  width: 800px;
+  border: 1px solid #ccc;
+  font-size: 1.8rem;
+  outline: none;
+}
+
+.search-mic .search-icon {
+  background-color: #eee;
+  width: 86px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  height: 49px;
+  object-fit: contain;
+}
+
+.search-mic .search-icon img {
+  padding: 0.3rem;
+  width: 40px;
+  object-fit: contain;
+}
+
+.search-mic .mic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-left: 25px;
+}
+
+.search-mic .mic img {
+  width: 30px;
+}
+
+/* Styling for Others div*/
+.others {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-right: 30px;
+  width: 300px;
+}
+
+.others img {
+  width: 40px;
+}
