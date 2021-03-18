@@ -8,55 +8,59 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-top: 1.5rem;
+  padding-top: 0.7rem;
   position: fixed;
 }
 
 .menu-logo {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 300px;
-}
-
-.menu-logo .hamburger {
-  margin-right: 43px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
 }
 
 .menu-logo img {
-  width: 150px;
+  width: 90px;
 }
 
 /*Search Bar and Mic*/
 .search-mic {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  width: 50%;
+  align-items: center;
+  width: 80%;
+}
+.search-mic .search-bar-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
 }
 
-.search-mic .search-bar input[type="search"] {
-  padding: 0.42rem;
-  width: 800px;
-  border: 1px solid #ccc;
-  font-size: 1.8rem;
+.search-mic .search-bar-icon input[type="search"] {
+  padding-left: 0.8rem;
+  width: 600px;
+  border: none;
+  font-size: 1rem;
   outline: none;
 }
 
-.search-mic .search-icon {
-  background-color: #eee;
-  width: 86px;
-  border: 1px solid #ccc;
+.search-mic .search-bar-icon .search-icon {
   display: flex;
   justify-content: center;
-  height: 49px;
-  object-fit: contain;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 0.55rem;
+  width: 70px;
+  border-left: 1px solid #ccc;
 }
 
-.search-mic .search-icon img {
-  padding: 0.3rem;
-  width: 40px;
-  object-fit: contain;
+.search-mic .search-bar-icon .search-icon:hover {
+  background-color: #eee;
+}
+
+.search-mic .search-bar-icon img {
+  width: 20px;
 }
 
 .search-mic .mic {
@@ -68,18 +72,24 @@ header {
 }
 
 .search-mic .mic img {
-  width: 30px;
+  width: 20px;
 }
 
 /* Styling for Others div*/
 .others {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   margin-right: 30px;
-  width: 300px;
+  width: 200px;
 }
 
 .others img {
-  width: 40px;
+  width: 23px;
+}
+
+.others .avatar {
+  background-color: #bbb;
+  border-radius: 50%;
+  padding: 0.2rem;
 }
